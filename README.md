@@ -5,7 +5,7 @@
 Tiny async-aware concurrency primitives — `Mutex`, `RWLock` (writer-preference, no starvation), and `Semaphore`. Zero dependencies.
 
 ```ts
-import { Mutex, RWLock, Semaphore } from "async-mutex-lite";
+import { Mutex, RWLock, Semaphore } from "@p-vbordei/async-mutex";
 
 // Mutex: serialize critical section
 const m = new Mutex();
@@ -25,12 +25,12 @@ await Promise.all(urls.map((u) =>
 ));
 ```
 
-> Published on npm as `async-mutex-lite` because the name `async-mutex` was already taken.
+> Published on npm under the scope `@p-vbordei/async-mutex` because the bare name `async-mutex` was already taken.
 
 ## Install
 
 ```sh
-npm install async-mutex-lite
+npm install @p-vbordei/async-mutex
 ```
 
 ## API
