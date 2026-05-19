@@ -1,5 +1,7 @@
 # async-mutex
 
+[![ci](https://github.com/p-vbordei/async-mutex/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/async-mutex/actions/workflows/ci.yml)
+
 Tiny async-aware concurrency primitives — `Mutex`, `RWLock` (writer-preference, no starvation), and `Semaphore`. Zero dependencies.
 
 ```ts
