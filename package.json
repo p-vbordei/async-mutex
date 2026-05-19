@@ -1,6 +1,6 @@
 {
   "name": "@p-vbordei/async-mutex",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Tiny async mutex, RWLock (writer-preference), and counting semaphore. Zero dependencies.",
   "keywords": [
     "mutex",
