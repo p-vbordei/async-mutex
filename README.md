@@ -2,6 +2,10 @@
 
 [![ci](https://github.com/p-vbordei/async-mutex/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/async-mutex/actions/workflows/ci.yml)
 
+[![npm](https://img.shields.io/npm/v/%40p-vbordei%2Fasync-mutex.svg)](https://www.npmjs.com/package/@p-vbordei/async-mutex)
+[![downloads](https://img.shields.io/npm/dm/%40p-vbordei%2Fasync-mutex.svg)](https://www.npmjs.com/package/@p-vbordei/async-mutex)
+[![bundle](https://img.shields.io/bundlejs/size/%40p-vbordei%2Fasync-mutex)](https://bundlejs.com/?q=%40p-vbordei%2Fasync-mutex)
+
 Tiny async-aware concurrency primitives — `Mutex`, `RWLock` (writer-preference, no starvation), and `Semaphore`. Zero dependencies.
 
 ```ts
